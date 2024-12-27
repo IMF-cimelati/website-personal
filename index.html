@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>web</title>
+</head>
+<body>
+    <style>
+        *{
+    border: 1px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(238, 237, 242);
+    padding: 10px;
+}
+
+nav ul {
+    padding-inline: 4rem;
+    display: flex;
+    gap: 2rem;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav {
+    background-color: black;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+nav a:hover {
+    border-radius: 20px;
+    transition: 0.6s ease-in-out;
+    background-color: #5d41b8 ;
+}
+
+.featured-image {
+    width: 25%;
+    padding-inline: 30px;
+    object-position: center;
+}
+
+.profile img {
+    width: 200px;
+}
+
+.article-text{
+    background-image: url(raieden.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(30, 30, 30);
+    background-blend-mode: soft-light;
+    padding: 120px 50px 133px 50px;
+    padding-bottom: 200px;
+    padding-top: 280px;
+    box-shadow: 2px 6px 8px 2px rgba(0,0,0,0.2);
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+}
+
+.aricle{
+    color: darkgoldenrod;
+    font-size: larger;
+}
+
+.Main{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    height: 520px;
+    padding: 100px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+.card{
+    color:aliceblue;
+    background-color:black;
+    height: 520px;
+    padding: 30px;
+    text-align:center;
+}
+.tugas{
+    padding: 30px;
+    height: 520px;
+    color: aliceblue;
+}
+main{
+    background-color: black;
+}
+.flex{
+    background-color:black;
+    color: aliceblue;
+    text-align: center;
+    height: 520px;
+    padding: 30px;
+}
+.featured-image{
+    display: flexbox;
+}
+.image{
+ border-radius: 50%;
+}
+footer{
+    background-color: black;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    color: aliceblue;
+}
+    </style>
+        <!-- Header -->
+        <header >
+            <div class="article-home">        
+                <nav> 
+                    <ul>
+                        <li>
+                            <a href="article">home</a>
+                        </li>
+                        <li>
+                            <a href="pipas">PIPAS</a>
+                        </li>
+                        <li>
+                            <a href="tentang">tentang</a>
+                        </li>
+                        <li>
+                            <a href="sertifikat">Sertifikat</a>
+                        </li>
+                        <li>
+                            <a href="kontak">kontak</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <article id="article" class="article-text">
+            <h1> -HAI- </h1>
+            <p>saya <span class="aricle">ikmal muslim firdaus</p>
+            
+        </article>
+
+        <main>
+            <div id="content">
+                <article id="tentang" class="Main">
+                    <figure>
+                        <img src="OIP.jpeg"  alt="foto" class="avatar">
+                    </figure>
+                    <div>
+                    <h2>Tentang</h2>
+                    <p>
+                        saya adalah siswa dari smk wikrama bogor kelas x dari jurusan PPLG X1
+                        cita cita ingin menjadi ahli dalam game developer 
+                    </p >
+                    <p>
+                        MOTTO HIDUP
+                        saya adalah siswa dari smk wikrama bogor kelas x dari jurusan PPLG X1
+                        cita cita ingin menjadi ahli dalam game developer 
+                    </p>
+                    </div>
+                </article>
+            </div>
+            </main>  
+
+            <main>
+                <article id="sertifikat" class="card">
+                    <h2>sertifikat</h2>
+                    <img src="sertfikat3.png" alt="sertifikat" class="featured-image">
+                    <figcaption>sertifikat dicoding</figcaption>
+                    <img src="sertifikat.png" alt="sertifikat" class="featured-image">
+                    <figcaption>sertifikat k3</figcaption>
+                </article>   
+                </main>
+                <main>
+                    <article id="kontak" class="flex">
+                         <h2>kontak</h2>
+                         <img src="unduhan.jpg" alt="wa" class="image">
+                         <figcaption>+62 821-2593-7526</figcaption>
+                    </article>
+                </main>
+                <main>
+                    <div>
+                    <article id="pipas" class="tugas">
+                        <h2>Artikel mengenai pergaulan bebas</h2>
+                    <p>pergaulan bebas ialah  perilaku yang melanggar norma susila dan agama, serta melewati batas-batas kewajaran. </p>
+                    <p>hal hal yang menjadi bisa pemicunya</p>
+                    <ol>
+                        <li>
+                        Pengaruh teman sebaya
+                        </li>
+                        <li>
+                        Kurangnya perhatian dari orang tua
+                        </li>
+                        <li>
+                        Masalah di sekolah
+                        </li>
+                        <li>
+                        Pengaruh media
+                        </li>
+                    </ol>
+                    <p>dampakya ialah</p>
+                    <ul>
+                        <li>kehilangan nilai nilai budaya</li>
+                        <li>hilangnya rasa tanggung jawab</li>
+                        <li>meningkatkan konflik antar individu atau kelompok</li>
+                        <li>meningkatkan resiko penyakit menular</li>
+                        <li>terjadinya perilaku perilaku buruk</li>
+                    </ul>
+        <p>Tips untuk Pergaulan Sehat</p>
+        <ul>
+             <li>
+                Tetapkan batasan: Tentukan batasan yang jelas dalam interaksi sosial.
+            </li>
+            <li>
+                Jaga kesadaran diri: Kenali diri sendiri dan orang lain.
+            </li>
+            <li>
+                Pilih lingkungan yang positif: Pilih lingkungan yang mendukung perkembangan diri.
+            </li>
+        </ul>
+                    </article>
+                    </div>
+                </main>
+                
+        <!-- Footer -->
+        <footer>
+            <p><em>ikmal muslim firdaus-2024</em> </p>
+        </footer>
+</body>
+</html>
